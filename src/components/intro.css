@@ -1,0 +1,210 @@
+.img{
+    background-image: url('../images/black-abstract-background-with-various-corner-layers-vector.jpg') ;
+    z-index: 1;
+    background-size: cover;
+    position: relative;
+    
+    
+   
+}
+span{
+    background-image: linear-gradient(to right, aqua,white, rgb(224, 62, 124));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.blackimg{
+    background-image: url("../images/2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #a57b52;
+}
+.img1{
+    z-index: 4;
+    background-color: rgba(black, black, black);
+}
+
+.container1{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background-color:black;
+    background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.133)40%,rgba(0, 0, 0, 0.133)59% );
+    box-shadow: 0.4rem;
+    z-index: 99;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.cursoranimate{
+animation: cursoran infinite ease 0.5s;
+}
+@keyframes cursoran {
+  
+    to{
+        display: "hidden";
+    }
+}
+.aa{
+    animation: greenanimator infinite ease 2s;
+}
+.text::after{
+    content: '';
+   
+    background-image: linear-gradient(to top,red,white) ;
+    height: 30%;
+    width: 200%;
+    top: 40%;
+   left: -50%;
+    animation: greenanimator infinite ease  6s;
+    
+    position: absolute;
+}
+@media only screen and (max-width:1000px){
+   
+}
+
+@keyframes greenanimator {
+    from{
+transform: rotate(0deg);
+    }to{
+transform: rotate(360deg);
+    }
+}
+.text::before{
+    content: '';
+   
+    background-image: linear-gradient(to top,aqua,blue);
+    height: 300%;
+    width: 30%;
+    top: -100%;
+   left: 40%;
+    animation: greenanimator infinite    ease 6s;
+    
+    position: absolute;
+}
+@keyframes greenanimator {
+    from{
+transform: rotate(0deg);
+    }to{
+transform: rotate(360deg);
+    }
+}
+
+
+@keyframes greenanimator {
+    from{
+transform: rotate(0deg);
+    }to{
+transform: rotate(360deg);
+    }
+}
+.text1::before{
+    content: '';
+   
+    background-image: linear-gradient(to top,aqua,red);
+    height: 300%;
+    width: 300%;
+    top: -100%;
+   
+    animation: greenanimator infinite   1s;
+    
+    position: absolute;
+}
+@keyframes rotateBorder {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes changeBorder {
+    0% {
+        border: none;
+    }
+    50% {
+        border: 2px solid red;
+    }
+   
+}
+.toloweranimate{
+    animation: toloweranimator ease-out 0.8s;
+}
+.toupanimate{
+    animation: toupanimator ease-out 0.8s;
+}
+.toupanimate1{
+    animation: toupanimator1 ease-out 0.8s;
+}
+.torightanimate{
+    animation: torightanimator ease-out 0.8s;
+}
+.toleftanimate{
+    animation: toleftanimator ease-out 0.8s;
+}
+@keyframes toloweranimator {
+    from{
+position: relative;
+bottom: 200px;
+    }to{
+position: relative;
+bottom: 0px;
+
+    }
+}
+@keyframes torightanimator {
+    from{
+position: relative;
+right: 200px;
+    }to{
+position: relative;
+right: 0px;
+    }
+}
+@keyframes toleftanimator {
+    from{
+position: relative;
+left: 200px;
+    }to{
+position: relative;
+left: 0px;
+    }
+}
+@keyframes toupanimator {
+    from{
+position: relative;
+top: 200px;
+    }to{
+position: relative;
+top: 0px;
+    }
+}
+
+@keyframes toupanimator1 {
+    from{
+position: relative;
+top: 0px;
+    }to{
+position: relative;
+top: 0px;
+    }
+}
+.imageborder{
+
+width: auto;
+border-radius: 50%;
+position: relative;
+border: solid 4px white;
+animation: imageanimator 4s ease infinite;
+
+}
+@keyframes imageanimator {
+    from{
+        box-shadow: 0 0 20px 35px rgba(16, 115, 190, 0.773);;
+
+    }to{
+        box-shadow: 0 0 20px 35px rgba(208, 70, 16, 0.826);;
+
+    }
+}
+
+
+

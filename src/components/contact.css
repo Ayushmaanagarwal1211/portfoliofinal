@@ -1,0 +1,71 @@
+.input{
+    outline: none;
+    z-index: 1;
+    height: 50px;
+  border: none;
+  background-color: black;
+}
+.textarea{
+    outline: none;
+    z-index: 1;
+
+  border: none;
+  background-color: black;
+}
+input::placeholder{
+    color: white;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: large;
+    height: 50px;
+
+}
+@media only screen and (max-width:1000px){
+    input::placeholder{
+        color: white;
+        font-style: oblique;
+        font-weight: 500;
+        font-size: xx-large;
+        height: 50px;
+
+    }
+    .textarea::placeholder{
+        color: white;
+        font-style: oblique;
+        font-weight: 500;
+    font-size: xx-large;
+    height: 50px;
+
+    }
+}
+.textarea::placeholder{
+    color: white;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: large;
+    height: 50px;
+
+}
+.aa{
+    font-size: 0.1px;
+animation: panimator ease 1s forwards;
+}
+@keyframes panimator {
+    from{
+        width: 0px;
+    }to{
+        width: 200px;
+    }
+}
+.showsubmit{
+animation: showsubmittor 0.3s ease forwards;
+}
+@keyframes showsubmittor{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

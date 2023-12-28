@@ -1,0 +1,233 @@
+.rocket{
+    animation: rotate 2s linear infinite;
+    transform-origin: 0 50%;
+    transform: rotateX(0deg);
+    transform-style: preserve-3d; transform-origin: center center;
+}
+.bulletanimate{
+  animation: bullet infinite ease 5s;
+}
+.videoanimate{
+animation: videoanimator forwards 0.1s;
+}
+.videounanimate{
+  animation: videounanimator forwards 0ms;
+
+}
+@keyframes videounanimator {
+  from{
+    bottom:0px
+  }to{
+    bottom: -432px;
+  }
+}
+@keyframes videoanimator {
+  from{
+    bottom:-432px
+  }to{
+    bottom: 80px;
+  }
+}
+
+.groundanimate{
+  animation: groundanimator forwards 0.1s;
+
+}
+@keyframes groundanimator {
+  from{
+    bottom:0px
+  }to{
+    bottom: calc(432px + 85px);
+  }
+}
+
+.downanimate{
+  animation: downanimator both 0.1s !important;
+
+}
+@keyframes downanimator {
+  from{
+    bottom: calc(432px + 22vh);
+  }to{
+    bottom:11vh
+  }
+}
+#about{
+  background-repeat: repeat;
+  background-size: cover;
+  z-index: 96;
+}
+.about{
+  background-image: linear-gradient(to bottom,#69c3fc 20%,#8b6239 80%);
+
+}
+@media only screen and (max-width:1000px){
+  #about{
+    background-image: linear-gradient(to bottom,#69c3fc 60%,#8b6239 35%);
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: 96;
+  }
+}
+.ayushmaananimate{
+animation: ayushmaananimator 0.4s ease-out forwards;
+
+}
+@keyframes ayushmaananimator {
+  from{
+    bottom:100%
+
+  }to{
+    bottom: 80px;
+  }
+}
+.a{
+  width: 2385px;
+}
+.agarwalanimate{
+  animation: agarwalanimator 0.4s ease-out forwards;
+  
+  }
+  
+  @keyframes agarwalanimator {
+    from{
+     bottom: 100%;
+  
+    }to{
+      bottom: 182px;
+    }
+  }
+@keyframes bullet {
+    from{
+      bottom: 250px;
+    }to{
+      bottom: 1000px;
+    }
+}
+.hotanimate{
+  animation: hotanimator 1s infinite ease-in-out alternate;
+}
+@keyframes hotanimator{
+  0%{
+bottom: 250px;
+  }100%{
+    bottom: 340px;
+  }
+
+}
+.cartoonanimate{
+animation:  cartoonanimator forwards   ease-in 1.5s;
+
+}
+@keyframes cartoonanimator{
+  0%{
+      bottom: 100%;
+  }50%{
+bottom: 80px;
+  }80%{bottom: 160px}
+  100%{
+    bottom: 80px;
+  }
+}
+.helper{
+  background-image: url('../images/1.png');
+}
+.helper1{
+  background-color: #7ccaf1;
+}
+.helper2{
+  background-image: linear-gradient(to bottom ,#7ccaf1 10%,#8b6239 70%);
+}
+/* .imagee{
+   background-image: url('./Untitled\ design\ \(4\)\ \(1\)\ \(1\).png');
+   background-position: center;
+   height: 100vh;
+   width: 100vw;
+   background-repeat: no-repeat;
+   
+} */
+.obsanimate{
+  animation: obsanimator forwards 0.4s  ease;
+}
+.castleanimate{
+  animation: castleanimator forwards 2s  ease-out;
+}
+.featureanimate{
+  animation: featuresanimator forwards 2s  ease-in;
+}
+@keyframes featuresanimator {
+  0%{
+    bottom: 800px;
+  }30%{
+    bottom: 30px;
+  }
+  60%{
+    bottom: 150px;
+  }
+  
+  100%{
+    bottom: 11vh;
+  }
+} 
+.finishanimate{
+  animation: finishanimator forwards 2s  ease-in;
+
+}
+@keyframes finishanimator {
+  0%{
+    bottom: 800px;
+  }30%{
+    bottom: 30px;
+  }
+  
+  
+  100%{
+    bottom: 350px;
+  }
+} 
+.input{
+  outline: none;
+  
+  border: none;
+  border-bottom: solid 2px white;
+}
+@keyframes obsanimator {
+  from{
+    bottom: -200px;
+    display: none;
+  }
+  to{
+    bottom: 80px;
+    display: block;
+  }
+}
+@keyframes castleanimator {
+  from{
+    bottom: -700px;
+    display: none;
+  }
+  to{
+    bottom: 80px;
+    display: block;
+  }
+}
+
+
+@keyframes rotate {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  .hotanimate{
+animation: hotanimator alternate infinite 1s;
+  }
+  @keyframes hotanimator {
+    from{
+      top: 10px;
+    }to{
+      top: 150px;
+    }
+  }

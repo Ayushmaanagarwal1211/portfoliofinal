@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.name{
+   
+}
+.li{
+background-image: linear-gradient(to right, aqua,white, rgb(224, 62, 124));
+-webkit-background-clip: text;
+color: transparent;
+font-size: x-large;
+font-weight: 600;
+}
+.tonavupanimate{
+animation: tonavupanimator ease 0.5s forwards;
+}
+@keyframes tonavupanimator {
+    from{
+        position: relative;
+        top: 40px;
+    }to{
+        position: relative;
+        top: 0px;
+    }
+}
+.navanimateleft{
+animation: navanimator 0.5s ease-out forwards;
+}
+
+@keyframes navanimator{
+    from    {
+    left: 100px;
+
+    }to{
+        left: 0px;
+    }
+}

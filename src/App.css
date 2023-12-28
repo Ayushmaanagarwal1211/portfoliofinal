@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    scrollbar-width: thin;
+  }
+*::-webkit-scrollbar {
+    width: 1px; /* You can adjust the width to your preference */
+  }
+  *::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Adjust as needed */
+  }
