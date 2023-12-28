@@ -65,6 +65,7 @@ return
     }
  fetch('https://backend-dsro.onrender.com',{
     method:"POST",
+  mode: 'no-cors',
     headers:{'Content-type':"application/json"},
     body:JSON.stringify({
         name:name.current.value,
