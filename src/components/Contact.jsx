@@ -65,7 +65,6 @@ return
     }
  fetch('https://sddsdssd.onrender.com/mail',{
     method:"POST",
-  mode: 'no-cors',
     headers:{'Content-type':"application/json"},
     body:JSON.stringify({
         name:name.current.value,
