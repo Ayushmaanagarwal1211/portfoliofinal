@@ -972,7 +972,7 @@ useEffect(()=>{
 
       <img
         src={hometownimage} width={'600'} height={'600'}
-        loading="lazy"
+         
         className="absolute   z-[99] obsanimate "
          
         style={{
@@ -983,7 +983,7 @@ useEffect(()=>{
         alt=""
       />
       <img  width={'300'} height={'300'}
-        src={class10image}   loading="lazy"
+        src={class10image}    
         className="absolute   z-[99] obsanimate "
         style={{
           display: `${class10 ? "" : "none"}`,
@@ -993,7 +993,7 @@ useEffect(()=>{
         alt=""
       />
       <img  width={'350'} height={'350'}
-        src={class12image}  loading="lazy"
+        src={class12image}   
         className="absolute    z-[99] obsanimate "
         style={{
           display: `${class12 ? "" : "none"}`,
@@ -1007,7 +1007,7 @@ useEffect(()=>{
    {agarwal &&   <img  height={'200'} width={'600'} className={`absolute agarwalanimate z-[99] ${ismobile?"h-[90px]":"h-[90px]"}`}   src={agarwalimage} alt="" style={{transition: "ease-out 0.1s",
           transform: `translateX(${translate + 418 + "px"})`}} />}
   <img  width={'250'} height={'300'}
-        src={level2image}  loading="lazy"
+        src={level2image}   
         className="absolute   z-[99] obsanimate h-[280px] "
         style={{
           display: `${level2 ? "" : "none"}`,
@@ -1017,7 +1017,7 @@ useEffect(()=>{
         alt=""
       />
       <img  width={'400'} height={'600'}
-        src={cap}  loading="lazy"
+        src={cap}   
         className="absolute   z-[99] obsanimate h-[400px] "
         style={{
           display: `${caps ? "" : "none"}`,
@@ -1027,7 +1027,7 @@ useEffect(()=>{
         alt=""
       />
       <img  width={'1300'} height={'300'}
-        src={begnerimage}  loading="lazy"
+        src={begnerimage}   
         className="absolute   z-[99] obsanimate h-[400px] "
         style={{
           display: `${beginerskills ? "" : "none"}`,
@@ -1037,7 +1037,7 @@ useEffect(()=>{
         alt=""
       />
          <img  width={'1000'} height={'500'}
-        src={monkeyimage}  loading="lazy"
+        src={monkeyimage}   
         className={`absolute ${isupper?"upanimate":"" } obsanimate  z-[99] h-[400px] `}
         style={{
           display: `${monkey ? "" : "none"}`,
@@ -1050,7 +1050,7 @@ useEffect(()=>{
     
      
       <img  width={'400'} height={'300'}
-        src={featurestextimage}  loading="lazy"
+        src={featurestextimage}   
         className="absolute   z-[99] featureanimate h-[100px] "
         style={{
           display: `${featurestext ? "" : "none"}`,
@@ -1061,7 +1061,7 @@ useEffect(()=>{
       />
      
      <img   width={'500'} height={'800'}
-        src={finishimg}  loading="lazy"
+        src={finishimg}   
         className="absolute   z-[99] castleanimate h-[700px] "
         style={{
           display: `${finish ? "" : "none"}`,
@@ -1071,7 +1071,7 @@ useEffect(()=>{
         alt=""
       />
       <img  width={'1300'} height={'900'}
-        src={intermediateskillsimg}  loading="lazy"
+        src={intermediateskillsimg}   
         className="absolute   z-[99] obsanimate "
         style={{
           display: `${intermediateskills ? "" : "none"}`,
@@ -1081,7 +1081,7 @@ useEffect(()=>{
         alt=""
       />
        <img height={'200'} width={'200'}
-        src={level3image}  loading="lazy"
+        src={level3image}   
         className={`absolute ${isupper?"upanimate":"" } obsanimate  z-[99]  `}
         style={{
           display: `${level3 ? "" : "none"}`,
@@ -1109,7 +1109,7 @@ useEffect(()=>{
 </video>
      
  <img  width={'400'} height={'600'}
-        src={casefeature1image}  loading="lazy"
+        src={casefeature1image}   
         className="absolute  z-[99] obsanimate "
         style={{height:"300px",
           display: `${ casefeature1? "" : "none"}`,
@@ -1119,7 +1119,7 @@ useEffect(()=>{
         alt=""
       />
        <img  width={'400'} height={'400'}
-        src={casefeature2image}  loading="lazy"
+        src={casefeature2image}   
         className="absolute  z-[99] obsanimate "
         style={{
           height:"300px"
@@ -1131,7 +1131,7 @@ useEffect(()=>{
       />
     
       <img  width={'300'} height={'300'}
-        src={hotairballoonimg}  loading="lazy"
+        src={hotairballoonimg}   
         className="absolute  z-[99] hotanimate "
         style={{
           height:"400px",
@@ -1142,7 +1142,7 @@ useEffect(()=>{
         alt=""
       />
       <img width={'500'} height={'500'}
-        src={school}  loading="lazy"
+        src={school}   
         className="absolute  z-[99] obsanimate "
         style={{
           display: `${showschool ? "" : "none"}`,
@@ -1154,7 +1154,7 @@ useEffect(()=>{
       <img 
 
 
-        src={cartoonimage}  width={'150'} height={'100'}  loading="lazy"
+        src={cartoonimage}  width={'150'} height={'100'}   
         
         style={{
           transition: "ease-out 1.3s",
@@ -1170,7 +1170,7 @@ useEffect(()=>{
       ></img>
       {/* <img src={cartoon1} className={`h-[850px] relative top-96 z-[99] ${show?"":"hidden"}`}></img> */}
       <img width={'120'} height={'100'}
-        src={cartoon1image}  loading="lazy"
+        src={cartoon1image}   
         style={{
           transition: "ease-out 1.3s",
           bottom:`${jump ? " 200px" : ""}`,
@@ -1186,7 +1186,7 @@ useEffect(()=>{
        
         
         <img height={'1000'} width={'1000'}
-          src={i1} loading="lazy"
+          src={i1}  
           className={`relative   a ${ismobile?"":""}  `}
           style={{
            height:`${ismobile?"728px":"728px"}`,
@@ -1202,7 +1202,7 @@ useEffect(()=>{
         ></img>
         
         <img height={'1000'} width={'1000'}
-          src={i2}  loading="lazy"
+          src={i2}   
           className="relative z-[98] a "
           style={{ minWidth:"1550px",          height:`${ismobile?"728px":"728px"}`,
           minHeight:`${ismobile?"728px":"728px"}`,
@@ -1212,7 +1212,7 @@ useEffect(()=>{
             transform: `translateX(${translate + "px"})`,
           }}
         ></img>
-         <img loading="lazy" height={'1000'} width={'1000'}
+         <img   height={'1000'} width={'1000'}
           src={i3} 
           className={`relative   a ${ismobile?"":""}  `}
           style={{
@@ -1228,7 +1228,7 @@ useEffect(()=>{
           }}
         ></img>
          <img height={'1000'} width={'1000'}
-          src={i4}  loading="lazy"
+          src={i4}   
           className={`relative   a ${ismobile?"":""}  `}
           style={{
            height:`${ismobile?"728px":"728px"}`,
@@ -1243,7 +1243,7 @@ useEffect(()=>{
           }}
         ></img>
          <img height={'1000'} width={'1000'}
-          src={i5}  loading="lazy"
+          src={i5}   
           className={`relative   a ${ismobile?"":""}  `}
           style={{
            height:`${ismobile?"728px":"728px"}`,
@@ -1257,7 +1257,7 @@ useEffect(()=>{
             transform: `translateX(${translate + "px"})`,
           }}
         ></img>
-      <img loading="lazy" height={'1000'} width={'1000'}
+      <img   height={'1000'} width={'1000'}
           src={i6} 
           className={`relative   a ${ismobile?"":""}  `}
           style={{
@@ -1272,7 +1272,7 @@ useEffect(()=>{
             transform: `translateX(${translate + "px"})`,
           }}
         ></img>
-       <img loading="lazy" height={'1000'} width={'1000'}
+       <img   height={'1000'} width={'1000'}
           src={i7} 
           className={`relative ${isupper?"groundanimate":""}  a ${ismobile?"":""}  `}
           style={{
@@ -1287,7 +1287,7 @@ useEffect(()=>{
             transform: `translateX(${translate + "px"})`,
           }}
         ></img>
-         <img loading="lazy" height={'1000'} width={'1000'}
+         <img   height={'1000'} width={'1000'}
           src={i71} 
           className={`z-[97] relative a h-[100%] ${isupper?"groundanimate":""}`}
           style={{ minWidth:"1550px",
@@ -1298,7 +1298,7 @@ useEffect(()=>{
             transform: `translateX(${translate + "px"})`,
           }}
         ></img>
-          <img loading="lazy" height={'1000'} width={'1000'}
+          <img   height={'1000'} width={'1000'}
           src={i8} 
           className={`relative ${isupper?"groundanimate":""}   a ${ismobile?"":""}  `}
           style={{
@@ -1313,7 +1313,7 @@ useEffect(()=>{
             transform: `translateX(${translate + "px"})`,
           }}
         ></img>
-         <img loading="lazy" height={'1000'} width={'1000'}
+         <img   height={'1000'} width={'1000'}
           src={i81} 
           className={`relative   a ${ismobile?"":""}  `}
           style={{
@@ -1328,7 +1328,7 @@ useEffect(()=>{
             transform: `translateX(${translate + "px"})`,
           }}
         ></img>
-        <img loading="lazy" height={'1000'} width={'1000'}
+        <img   height={'1000'} width={'1000'}
           src={tempo} 
           className={`relative   a ${ismobile?"":""}  `}
           style={{
@@ -1343,7 +1343,7 @@ useEffect(()=>{
             transform: `translateX(${translate + "px"})`,
           }}
         ></img>
-         <img loading="lazy" height={'1000'} width={'1000'}
+         <img   height={'1000'} width={'1000'}
           src={i9} 
           className={`relative   a ${ismobile?"":""}  `}
           style={{
@@ -1359,7 +1359,7 @@ useEffect(()=>{
           }}
         ></img>
           <img height={'1000'} width={'1000'}
-          src={i7}  loading="lazy"
+          src={i7}   
           className="z-[98]  relative a h-[100%] "
           style={{ minWidth:"1550px",
             transition: "ease-out 0.1s",          height:`${ismobile?"922px":"728px"}`,
@@ -1369,7 +1369,7 @@ useEffect(()=>{
             transform: `translateX(${translate + "px"})`,
           }}
         ></img>
-        <img  width={'150'} height={'200'}  loading="lazy"  src="https://images.cooltext.com/5680342.png" className="finishanimate"  alt="FINISH" style={{position:"absolute",bottom:"500px",zIndex:"99",
+        <img  width={'150'} height={'200'}     src="https://images.cooltext.com/5680342.png" className="finishanimate"  alt="FINISH" style={{position:"absolute",bottom:"500px",zIndex:"99",
    display:`${finish?"":"none"}`,
    height:"70px",
       width:"280px",
