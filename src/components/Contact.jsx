@@ -63,7 +63,7 @@ setTimeout(() => {
 }, 1000);
 return
     }
- fetch('https://backend-dsro.onrender.com/mail',{
+ fetch('https://sddsdssd.onrender.com/mail',{
     method:"POST",
   mode: 'no-cors',
     headers:{'Content-type':"application/json"},
